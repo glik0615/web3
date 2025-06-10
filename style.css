@@ -7,12 +7,14 @@
     --grey-color:#86928B;
     --font-size-eighteen:18px;
     --font-weight-medium:500;
+    --white-color:#F4F6F5;
+    --light-green-color2:#D4E8D9;
 }
 *{
     margin: 0;
     padding: 0;
 }
-body{
+body, button{
     font-family: var(--font);
 }
 .container{
@@ -22,6 +24,7 @@ body{
     background-color: var(--light-green-color);
     padding: 33px 0 32px 0;
 }
+
 .header-link{
     font-size: var(--font-size-twenty);
     color:var(--black-color);
@@ -49,6 +52,12 @@ body{
     }
     .about-button{
         padding: 21px 60px;
+    }
+    .works-up-title{
+        font-size: 40px;
+    }
+    .work-example{
+        width: 310px;
     }
 }
 .header-button{
@@ -80,5 +89,69 @@ body{
     font-size: var(--font-size-twenty);
     color: var(--green-color);
     border: 1px solid var(--green-color);
+    background: none;
+}
+.works-up{
+    display: flex;
+    justify-content: space-between;
+    margin:70px auto 30px auto;
+}
+.works-up-title{
+    font-weight: var(--font-weight-medium);
+    color: var(--black-color);
+}
+.works-button-active{
+    padding: 10px 20px;
+    color: var(--white-color);
+    background-color: var(--green-color);
+    font-size: var(--font-size-twenty);
+    font-weight: var(--font-weight-medium);
+    border-radius: 20px;
+    border: none;
+}
+.works-button{
+    padding: 10px 20px;
+    color: var(--black-color);
+    background-color: var(--light-green-color2);
+    font-size: var(--font-size-twenty);
+    font-weight: var(--font-weight-medium);
+    border-radius: 20px;
+    border: none;
+}
+.works-second-button{
+    margin:0 32px;
+}
+.work-example{
+    background-color: var(--light-green-color);
+    padding: 20px 20px 30px 20px;
+}
+.work-artist{
+    font-size: var(--font-size-eighteen);
+    font-weight: var(--font-weight-medium);
+    color: var(--grey-color);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: fit-content;
+}
+.work-name{
+    font-weight: var(--font-weight-medium);
+    color: var(--black-color);
+    font-size: var(--font-size-eighteen);
+    margin-top: 8px;
+    margin-bottom: 30px;
+    width: fit-content;    
+}
+.work-price{
+    font-weight: var(--font-weight-medium);
+    color: var(--green-color);
+    font-size: 24px;
+    width: fit-content;   
+}
+.work-buy{
+    font-weight: var(--font-weight-medium);
+    color: var(--green-color);
+    font-size: var(--font-size-twenty);
+    padding: 20px 100px;
+    margin-top: 20px;
     background: none;
 }
