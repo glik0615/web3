@@ -67,6 +67,17 @@ body, button {
     .team-text p{
         margin: 20px 0;
     }
+    .footer-flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-right{
+    display: flex;
+    }
+    .footer-links{
+        margin-right: 250px;
+    }
+    .contacts-phone{margin: 41px 0 8px 0;}
     }
 
 .header {
@@ -233,4 +244,42 @@ body, button {
 }
 .team-image img:nth-child(2){
     margin: 0 30px;
+}
+footer {
+    background-color: var(--light-green-color);
+    padding: 23px 0;
+    font-size: var(--font-size-eighteen);
+    color: var(--grey-color);
+    font-weight: var(--font-weight-medium);
+}
+.contacts-phone{
+    font-size: var(--font-size-twenty);
+    color: var(--black-color);
+}
+.footer-links{
+    display: flex;
+}
+.footer-link h3{
+    color: var(--black-color);
+    font-size: var(--font-size-twenty);
+    font-weight: var(--font-weight-medium);
+    margin-bottom: 6px;
+}
+.footer-link a{
+    text-decoration: none;
+    color: var(--grey-color);
+    display: block;
+    margin-bottom: 6px;
+}
+.footer-link:nth-child(2){
+    margin: 0 60px;
+}
+.footer-social{
+    margin-bottom: 10px;}
+.social-second{
+    margin: 0 23px;
+}
+.footer-info p{
+    font-size: 12px;
+    margin-bottom: 6px;
 }
