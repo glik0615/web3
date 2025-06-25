@@ -78,6 +78,7 @@ body, button {
         margin-right: 250px;
     }
     .contacts-phone{margin: 41px 0 8px 0;}
+    .vector{display: none;}
     }
 
 .header {
@@ -221,7 +222,7 @@ body, button {
     margin-left: 20px;
 }
 .new-collection-text p{
-    font-size: var(--font-size-eighteen);
+    font-size: 16px;
     font-weight: var(--font-weight-medium);
     margin-bottom: 30px;
     line-height: 150%;
@@ -329,13 +330,162 @@ footer {
     .footer-right{
     display: flex;
     justify-content: space-between;
-    }
-    .footer-links{
-        margin-right: 250px;
+    margin-top: 30px;
+    margin-right: 30px;
     }
     .contacts-phone{margin: 41px 0 8px 0;}
     .footer-social{display: flex;}
     .foot-nav{display: flex;
     justify-content: space-between;}
+    .about img{
+        width: 330px;
     }
+    .vector{display: none;}
+}
+@media (min-width:320px) and (max-width:767px){
+    .container{
+        max-width: 290px;}
+    .header-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        background-color: white;
 
+        max-width: 290px;
+    }
+    .header-link {
+        display: none;}
+    .header-links{
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--light-green-color);
+    }
+    .bird{
+        display: none;}
+    .about-right {
+        width: 330px;
+    margin-top: 30px;}
+    .about-title {
+        font-size: 30px;}
+    .about-text{
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .about-button {
+        padding: 14.5px 29px;
+        margin-top: 40px;
+        font-size: var(--font-size-eighteen);
+        }
+    .works-up{
+        margin-top: 60px;
+        display: block;
+    }
+    .works-buttons{
+        display: flex;
+        margin-top: 20px;
+    }
+    .works-buttons button:nth-child(3){
+        display: none;
+    }
+    .works-up-title {
+        font-size: 30px;}
+
+    .work-artist{
+        margin-top: 15px;
+        font-size: 16px;
+    }
+    .work-name{
+        font-size: 24px;
+        margin-top: 10px;
+    }
+    .work-type{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .work-example{
+        width: 290px;
+        margin-right: 15px;
+    }
+    .work-price{
+        font-size:20px;
+        margin-top: 30px;}
+    .work-buy{
+        font-size: var(--font-size-eighteen);
+        padding: 14.5px 81.5px;
+    }
+    .new-collection-title h2{
+        width: 230px;
+        font-size: 24px;
+        margin-left: 10px;
+        font-weight: lighter;
+    }
+    .new-collection-title img{
+        width: 50px;
+        height: 50px;
+    }
+    .new-collection-text p{
+        width: 290px;
+        font-size: 16px;
+        font-weight: lighter;
+    }
+    .new-collection-button{
+        padding: 14.5px 83.5px;
+        margin-top: 0;
+        width: 290px;
+        font-size: var(--font-size-eighteen);
+    }
+    .new-collection{
+        padding: 50px 0px;
+    }
+    .team{
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+        margin: 60px auto;
+    }
+    .team-img{
+        width: 290px;
+        height: 286px;
+    }
+    .team-text{
+        width: 290px;
+        margin-top: 30px;
+    }
+    .works-up-title{
+        font-size: 24px;
+    }
+    .team-text p{
+        margin: 20px 0;
+        font-size: 16px;
+    }
+    .team-image{
+        display: flex;
+    }
+    .footer-flex{
+        display: block;
+    }
+    .footer-links{
+        flex-wrap: wrap;
+    }
+    .contacts-phone{
+        font-size: 16px;
+    }
+    .mastery{
+        font-size: 16px;
+    }
+    .footer-right{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-right: 30px;
+    }
+    .contacts-phone{margin: 41px 0 8px 0;}
+    .footer-social{display: flex;}
+    .foot-nav{
+    display: block;
+}
+    .about img{
+        width: 330px;
+    }
+}
