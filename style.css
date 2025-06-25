@@ -288,7 +288,13 @@ footer {
     margin-bottom: 6px;
 }
 @media (min-width:768px) and (max-width:1439px){
-    
+    .footer-links{
+        display: flex;
+    }
+    .end-block{
+        display: flex;
+        margin-left: 60px;
+    }
     .container{
         max-width: 690px;}
     .header-link {
